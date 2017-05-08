@@ -33,3 +33,12 @@ console.log(specialKeys)
 
     }
  */
+
+handleInput = (e) => {
+  let {value, name} = event.target
+  this.setState( (prevState) => {
+    return {
+      [name]: value
+    }
+  })
+}

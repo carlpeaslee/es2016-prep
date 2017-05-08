@@ -16,7 +16,7 @@ Let's try checking some of these traits on const, let, and var.
 
  code1
 
-One gotcha with const is that its arrays and objects are actually immutable –– that is to say, even though you can't change them to something other than an object or array, you can change the contents.
+One gotcha with const is that its arrays and objects are NOT actually immutable –– that is to say, even though you can't change them to something other than an object or array, you can change the contents.
 
 
 Finally lets take one last look at the way const and let are scoped -- that is where you can access them.

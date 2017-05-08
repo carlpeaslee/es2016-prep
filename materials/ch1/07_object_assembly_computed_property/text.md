@@ -9,3 +9,5 @@ Object assembly short hand allows us to simply pass the variable and the key wil
 We also have a new way of referencing the name of a key on an object. Previously we would have to set the name of a key after we'd created an object using the period or bracket syntax.
 
 Now however, we can create new property names while we're assembling the rest of the variables information.
+
+This can be particularly useful with React's setState method. 
