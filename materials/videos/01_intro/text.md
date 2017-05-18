@@ -17,3 +17,11 @@ Now, javascript was originally written back in 1997 and since then, ECMA has bee
 In this course we are going to be reviewing a number of the specifications that were added in es2015 because that was a fairly sizable update –– and it included many of the iconic updates like const and let and the arrow function and because it is largely what people think of when they think of es-whatever.
 
 But we are also going to review some syntax that was in es2016 and even some syntax that isn't in any ecma specification yet but that can be transpiled using the same programs that we'll be using in our project –– and may well be in the upcoming es2017
+
+I find its always easiest to pick up new skills when I get to put them to use on a project. So, to help get us some practice with cool new syntax we're going to learn, we are going to implement them in a fun project I've been working  on.
+
+In my free time I like to do some creative writing in addition to writing code. Ever since I began programming, I've been drawn to aesthetically unique way that interactive development editors –– like Atom or Sublime Text highlight the different parts of a scripts syntax.
+
+So in this project, we're going to be building our own ide of sorts that will allow use to create our own language and syntax styling rules and then apply those to our own work –– or a random work online.
+
+Let's check out the finished product so that we can see what we're working towards .

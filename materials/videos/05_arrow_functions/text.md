@@ -10,4 +10,28 @@ Remember, however, these two function definitions ARE different. And their use c
 
 This can be a bit confusing –– in part I think, just because of the word "this" -- so let's look at some code.
 
-See how 'this' logs as different values based on which sort of function I use
+See how 'this' logs as different values based on which sort of function I use?
+
+Let's write a function for our util file that I knkow we're going to want to use.
+
+```javascript
+let options = () => {
+  return {
+    method: 'POST',
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      //...our request
+    })
+  }
+}
+
+function randomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+
+
+```

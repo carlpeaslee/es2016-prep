@@ -20,3 +20,24 @@ One gotcha with const is that its arrays and objects are NOT actually immutable 
 
 
 Finally lets take one last look at the way const and let are scoped -- that is where you can access them.
+
+Now that we have a decent idea of the way that const and let behave. Let's add a few const and let variables to our project.
+
+Let's create a request file and in it, we will create a const. This will just be a string for the url of the api we are going to use.
+
+And then lets also make a variable that will hold the request options we will be using...
+
+```javascript
+
+const shakespeareApi = 'https://api.graph.cool/simple/v1/shakespeare'
+
+let options = {
+  method: 'POST',
+  headers: {
+    "Content-Type": "application/json"
+  },
+  body: JSON.stringify({
+    //our request body
+  })
+}
+```
